@@ -7,18 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1107E0F26F9CE8B00637A16 /* TestAsyncAwaitCancelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1107E0E26F9CE8B00637A16 /* TestAsyncAwaitCancelation.swift */; };
+		B1107E1126FA005000637A16 /* LocationMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1107E1026FA005000637A16 /* LocationMonitor.swift */; };
+		B1107E1326FA00B500637A16 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1107E1226FA00B500637A16 /* LocationView.swift */; };
+		B1107E1526FA00CA00637A16 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1107E1426FA00CA00637A16 /* LocationViewModel.swift */; };
+		B1124B6327030C760003D72F /* TestAsyncAwaitActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1124B6227030C760003D72F /* TestAsyncAwaitActor.swift */; };
+		B126E4EA26FDADD6004134E2 /* ListTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B126E4E926FDADD6004134E2 /* ListTestView.swift */; };
 		B18A2BF926F34157001A57F5 /* TutorialAsyncAwaitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18A2BF826F34157001A57F5 /* TutorialAsyncAwaitApp.swift */; };
-		B18A2BFB26F34157001A57F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18A2BFA26F34157001A57F5 /* ContentView.swift */; };
+		B18A2BFB26F34157001A57F5 /* ListProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18A2BFA26F34157001A57F5 /* ListProductView.swift */; };
 		B18A2BFD26F34159001A57F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18A2BFC26F34159001A57F5 /* Assets.xcassets */; };
 		B18A2C0026F34159001A57F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18A2BFF26F34159001A57F5 /* Preview Assets.xcassets */; };
+		B18A2C0726F34180001A57F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18A2C0626F34180001A57F5 /* AppDelegate.swift */; };
+		B18A2C0A26F341C9001A57F5 /* TestAsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18A2C0926F341C9001A57F5 /* TestAsyncAwait.swift */; };
+		B1B851A126F891DE00F61FC2 /* TestAsyncAwaitParallelSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B851A026F891DE00F61FC2 /* TestAsyncAwaitParallelSimple.swift */; };
+		B1B851A326F8920400F61FC2 /* TestAsyncAwaitParallelImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B851A226F8920400F61FC2 /* TestAsyncAwaitParallelImage.swift */; };
+		B1B851A526F8955100F61FC2 /* TestAsyncAwaitSyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B851A426F8955100F61FC2 /* TestAsyncAwaitSyntax.swift */; };
+		B1B851A726F89D7600F61FC2 /* TestAsyncAwaitSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B851A626F89D7600F61FC2 /* TestAsyncAwaitSequence.swift */; };
+		B1B851A926F8A72900F61FC2 /* ProductDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B851A826F8A72900F61FC2 /* ProductDTO.swift */; };
+		B1B851AB26F8A7D900F61FC2 /* ListProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B851AA26F8A7D900F61FC2 /* ListProductViewModel.swift */; };
+		B1B851AD26F8BA2800F61FC2 /* TestAsyncAwaitTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B851AC26F8BA2800F61FC2 /* TestAsyncAwaitTasks.swift */; };
+		B1EE757D26FC4A6A002AF802 /* TestAsyncAwaitContinuation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EE757C26FC4A6A002AF802 /* TestAsyncAwaitContinuation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B1107E0E26F9CE8B00637A16 /* TestAsyncAwaitCancelation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAsyncAwaitCancelation.swift; sourceTree = "<group>"; };
+		B1107E1026FA005000637A16 /* LocationMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMonitor.swift; sourceTree = "<group>"; };
+		B1107E1226FA00B500637A16 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		B1107E1426FA00CA00637A16 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		B1124B6227030C760003D72F /* TestAsyncAwaitActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAsyncAwaitActor.swift; sourceTree = "<group>"; };
+		B126E4E926FDADD6004134E2 /* ListTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTestView.swift; sourceTree = "<group>"; };
+		B1328C2526F46DF100D081BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B18A2BF526F34157001A57F5 /* TutorialAsyncAwait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutorialAsyncAwait.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18A2BF826F34157001A57F5 /* TutorialAsyncAwaitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialAsyncAwaitApp.swift; sourceTree = "<group>"; };
-		B18A2BFA26F34157001A57F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B18A2BFA26F34157001A57F5 /* ListProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductView.swift; sourceTree = "<group>"; };
 		B18A2BFC26F34159001A57F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B18A2BFF26F34159001A57F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B18A2C0626F34180001A57F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B18A2C0926F341C9001A57F5 /* TestAsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAsyncAwait.swift; sourceTree = "<group>"; };
+		B1B851A026F891DE00F61FC2 /* TestAsyncAwaitParallelSimple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAsyncAwaitParallelSimple.swift; sourceTree = "<group>"; };
+		B1B851A226F8920400F61FC2 /* TestAsyncAwaitParallelImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAsyncAwaitParallelImage.swift; sourceTree = "<group>"; };
+		B1B851A426F8955100F61FC2 /* TestAsyncAwaitSyntax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAsyncAwaitSyntax.swift; sourceTree = "<group>"; };
+		B1B851A626F89D7600F61FC2 /* TestAsyncAwaitSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAsyncAwaitSequence.swift; sourceTree = "<group>"; };
+		B1B851A826F8A72900F61FC2 /* ProductDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDTO.swift; sourceTree = "<group>"; };
+		B1B851AA26F8A7D900F61FC2 /* ListProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductViewModel.swift; sourceTree = "<group>"; };
+		B1B851AC26F8BA2800F61FC2 /* TestAsyncAwaitTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAsyncAwaitTasks.swift; sourceTree = "<group>"; };
+		B1EE757C26FC4A6A002AF802 /* TestAsyncAwaitContinuation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAsyncAwaitContinuation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +84,10 @@
 		B18A2BF726F34157001A57F5 /* TutorialAsyncAwait */ = {
 			isa = PBXGroup;
 			children = (
+				B1B52ECE2716B47800049892 /* features */,
+				B1328C2526F46DF100D081BD /* Info.plist */,
+				B18A2C0626F34180001A57F5 /* AppDelegate.swift */,
 				B18A2BF826F34157001A57F5 /* TutorialAsyncAwaitApp.swift */,
-				B18A2BFA26F34157001A57F5 /* ContentView.swift */,
 				B18A2BFC26F34159001A57F5 /* Assets.xcassets */,
 				B18A2BFE26F34159001A57F5 /* Preview Content */,
 			);
@@ -65,6 +100,53 @@
 				B18A2BFF26F34159001A57F5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B18A2C0826F341AF001A57F5 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				B126E4E926FDADD6004134E2 /* ListTestView.swift */,
+				B18A2C0926F341C9001A57F5 /* TestAsyncAwait.swift */,
+				B1B851A426F8955100F61FC2 /* TestAsyncAwaitSyntax.swift */,
+				B1B851A026F891DE00F61FC2 /* TestAsyncAwaitParallelSimple.swift */,
+				B1B851A226F8920400F61FC2 /* TestAsyncAwaitParallelImage.swift */,
+				B1B851A626F89D7600F61FC2 /* TestAsyncAwaitSequence.swift */,
+				B1B851AC26F8BA2800F61FC2 /* TestAsyncAwaitTasks.swift */,
+				B1107E0E26F9CE8B00637A16 /* TestAsyncAwaitCancelation.swift */,
+				B1EE757C26FC4A6A002AF802 /* TestAsyncAwaitContinuation.swift */,
+				B1124B6227030C760003D72F /* TestAsyncAwaitActor.swift */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		B1B52ECC2716B45100049892 /* product */ = {
+			isa = PBXGroup;
+			children = (
+				B18A2BFA26F34157001A57F5 /* ListProductView.swift */,
+				B1B851AA26F8A7D900F61FC2 /* ListProductViewModel.swift */,
+				B1B851A826F8A72900F61FC2 /* ProductDTO.swift */,
+			);
+			path = product;
+			sourceTree = "<group>";
+		};
+		B1B52ECD2716B46700049892 /* location */ = {
+			isa = PBXGroup;
+			children = (
+				B1107E1226FA00B500637A16 /* LocationView.swift */,
+				B1107E1426FA00CA00637A16 /* LocationViewModel.swift */,
+				B1107E1026FA005000637A16 /* LocationMonitor.swift */,
+			);
+			path = location;
+			sourceTree = "<group>";
+		};
+		B1B52ECE2716B47800049892 /* features */ = {
+			isa = PBXGroup;
+			children = (
+				B1B52ECD2716B46700049892 /* location */,
+				B1B52ECC2716B45100049892 /* product */,
+				B18A2C0826F341AF001A57F5 /* test */,
+			);
+			path = features;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +219,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B18A2BFB26F34157001A57F5 /* ContentView.swift in Sources */,
+				B1B851A926F8A72900F61FC2 /* ProductDTO.swift in Sources */,
+				B1B851A126F891DE00F61FC2 /* TestAsyncAwaitParallelSimple.swift in Sources */,
+				B18A2C0726F34180001A57F5 /* AppDelegate.swift in Sources */,
+				B1124B6327030C760003D72F /* TestAsyncAwaitActor.swift in Sources */,
+				B1B851A326F8920400F61FC2 /* TestAsyncAwaitParallelImage.swift in Sources */,
+				B1EE757D26FC4A6A002AF802 /* TestAsyncAwaitContinuation.swift in Sources */,
+				B1B851AB26F8A7D900F61FC2 /* ListProductViewModel.swift in Sources */,
+				B1B851AD26F8BA2800F61FC2 /* TestAsyncAwaitTasks.swift in Sources */,
+				B1107E1126FA005000637A16 /* LocationMonitor.swift in Sources */,
+				B18A2BFB26F34157001A57F5 /* ListProductView.swift in Sources */,
+				B1107E0F26F9CE8B00637A16 /* TestAsyncAwaitCancelation.swift in Sources */,
+				B126E4EA26FDADD6004134E2 /* ListTestView.swift in Sources */,
+				B1B851A726F89D7600F61FC2 /* TestAsyncAwaitSequence.swift in Sources */,
+				B1B851A526F8955100F61FC2 /* TestAsyncAwaitSyntax.swift in Sources */,
+				B1107E1326FA00B500637A16 /* LocationView.swift in Sources */,
 				B18A2BF926F34157001A57F5 /* TutorialAsyncAwaitApp.swift in Sources */,
+				B1107E1526FA00CA00637A16 /* LocationViewModel.swift in Sources */,
+				B18A2C0A26F341C9001A57F5 /* TestAsyncAwait.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,12 +369,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TutorialAsyncAwait/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TutorialAsyncAwait/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,12 +399,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TutorialAsyncAwait/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TutorialAsyncAwait/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
